@@ -1,0 +1,8 @@
+BasedOnStyle: GNU
+
+IndentWidth: 4
+BreakBeforeBraces: Allman
+# SpaceBeforeParens: Custom
+# SpaceBeforeParensOptions:
+#   AfterControlStatements: true
+#   AfterFunctionDefinitionName: true
