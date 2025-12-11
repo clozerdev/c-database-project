@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #include "common.h"
-#include "parser.h"
+#include "parse.h"
 
 int
 output_file (int fd, struct dbheader_t *dbheader)
@@ -101,7 +101,7 @@ validate_db_header (int fd, struct dbheader_t **header_out)
 }
 
 int
-create_db_header (int fd, struct dbheader_t **header_out)
+create_db_header (struct dbheader_t **header_out)
 {
     struct dbheader_t *header = calloc (1, sizeof (struct dbheader_t));
     if (header == NULL)

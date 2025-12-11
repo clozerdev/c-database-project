@@ -4,7 +4,7 @@
 
 #include "common.h"
 #include "file.h"
-#include "parser.h"
+#include "parse.h"
 
 void
 print_usage (char *argv[])

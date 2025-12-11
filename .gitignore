@@ -1,0 +1,8 @@
+# Folders
+.cache/*
+./obj/*
+./bin/*
+
+# Files
+./compile_commands.json
+./employees.db
